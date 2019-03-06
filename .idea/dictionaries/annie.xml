@@ -1,11 +1,35 @@
 <component name="ProjectDictionaryState">
   <dictionary name="annie">
     <words>
+      <w>appnope</w>
+      <w>backcall</w>
       <w>conc</w>
       <w>dataframes</w>
       <w>disp</w>
+      <w>entrypoints</w>
       <w>fcst</w>
+      <w>genutils</w>
+      <w>ipykernel</w>
+      <w>ipywidgets</w>
+      <w>jsonschema</w>
+      <w>mistune</w>
+      <w>nbconvert</w>
+      <w>nbformat</w>
+      <w>pandocfilters</w>
+      <w>parso</w>
+      <w>pexpect</w>
+      <w>pickleshare</w>
+      <w>ptyprocess</w>
+      <w>pygments</w>
+      <w>pyzmq</w>
+      <w>qtconsole</w>
+      <w>terminado</w>
+      <w>testpath</w>
+      <w>traitlets</w>
       <w>trgt</w>
+      <w>wcwidth</w>
+      <w>webencodings</w>
+      <w>widgetsnbextension</w>
     </words>
   </dictionary>
 </component>
