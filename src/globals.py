@@ -22,7 +22,7 @@ FORECAST_CODES = {
 }
 
 # ROOT_DIR = 'data'
-ROOT_DIR = 'test_data'
+ROOT_DIR = 'data/test'
 PERIOD_DIRS = ['2008-2010']
 SCENARIO_DIRS = [
     SCENARIO_CODES['business_as_usual_5%'],
