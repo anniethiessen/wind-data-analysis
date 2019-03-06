@@ -6,7 +6,7 @@ import pandas as pd
 from .globals import *
 
 
-def get_csv_file_paths(period_dirs, scenario_dirs, forecast_dirs):
+def get_file_paths(period_dirs, scenario_dirs, forecast_dirs):
     """
     Returns a list of CSV file paths within specific period, scenario,
     and forecast directories.
@@ -26,7 +26,7 @@ def get_csv_file_paths(period_dirs, scenario_dirs, forecast_dirs):
     for period_dir in period_dirs:
         for scenario_dir in scenario_dirs:
             for forecast_dir in forecast_dirs:
-                data_path = './{r}/{p}/{s}/{f}/'.format(
+                data_path = '../{r}/{p}/{s}/{f}/'.format(
                     r=ROOT_DIR, p=period_dir, s=scenario_dir, f=forecast_dir)
                 ret += glob.glob(os.path.join(data_path, "*.csv"))
     return ret
